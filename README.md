@@ -14,6 +14,7 @@ docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 
 ### Implement an external task worker
 
+Add following dependency in your project:
 ```
 <dependency>
     <groupId>org.camunda.bpm</groupId>
@@ -22,7 +23,12 @@ docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 </dependency>
 ```
 
-
+```
+ExternalTaskClient client = ExternalTaskClient.create()
+        .baseUrl("http://localhost:8080/engine-rest")
+        .asyncResponseTimeout(10000) // long polling timeout
+        .build();
+```
 
 
 
