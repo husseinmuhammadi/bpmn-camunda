@@ -37,6 +37,7 @@ http://localhost:8080/camunda/app/cockpit
 
 #### Start a Process Instance
 - Use POSTMAN
+
 Make a POST request to the following endpoint: http://localhost:8080/engine-rest/process-definition/key/payment-retrieval/start
 
 The JSON Body should look like this:
@@ -55,6 +56,7 @@ The JSON Body should look like this:
 ```
 
 - Use curl
+
 ```
 curl -H "Content-Type: application/json" -X POST -d '{"variables": {"amount": {"value":555,"type":"long"}, "item": {"value":"item-xyz"} } }' http://localhost:8080/engine-rest/process-definition/key/payment-retrieval/start
 ```
