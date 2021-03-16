@@ -30,6 +30,10 @@ http://localhost:8080/engine-rest
 ```
 
 #### Verify the Deployment with Cockpit
+```
+http://localhost:8080/camunda/app/cockpit
+```
+
 
 ### Implement an external task worker
 
