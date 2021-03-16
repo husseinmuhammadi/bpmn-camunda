@@ -19,7 +19,12 @@ docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 
 ### Deploy the Process
 
+
+
 #### Use the Camunda Modeler to Deploy the Process
+
+From version 3.0.0 on, you will be required to provide an URL for an Endpoint Configuration along with Deployment Details.
+
 ```
 http://localhost:8080/engine-rest
 ```
