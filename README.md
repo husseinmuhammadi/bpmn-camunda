@@ -13,9 +13,9 @@ docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 ### Create a new BPMN Diagram
 
 #### Configure Properties for Execution
-Set process Id: payment-retrieval
-Set process name: Payment Retrieval
-Mark the process to be executable
+- Set process Id: payment-retrieval
+- Set process name: Payment Retrieval
+- Mark the process to be executable
 
 ### Deploy the Process
 
