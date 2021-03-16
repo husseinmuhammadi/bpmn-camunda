@@ -42,15 +42,15 @@ Make a POST request to the following endpoint: http://localhost:8080/engine-rest
 The JSON Body should look like this:
 ```
 {
-	"variables": {
-		"amount": {
-			"value":555,
-			"type":"long"
-		},
-		"item": {
-			"value": "item-xyz"
-		}
-	}
+  "variables": {
+    "amount": {
+      "value":555,
+      "type":"long"
+    },
+    "item": {
+      "value": "item-xyz"
+    }
+  }
 }
 ```
 
