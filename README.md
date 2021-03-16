@@ -4,9 +4,12 @@
 
 ### Download and Installation
 
+First, you need to install the Camunda Platform and the Camunda Modeler.  
+To install the Camunda Platform locally on your machine run command below:
+```
 docker pull camunda/camunda-bpm-platform:latest
 docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
-
+```
 
 ### Reference Documentation
 
