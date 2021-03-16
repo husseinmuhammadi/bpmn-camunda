@@ -12,6 +12,20 @@ docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 ```
 ### Create a new BPMN Diagram
 
+#### Configure Properties for Execution
+Set process Id: payment-retrieval
+Set process name: Payment Retrieval
+Mark the process to be executable
+
+### Deploy the Process
+
+#### Use the Camunda Modeler to Deploy the Process
+```
+http://localhost:8080/engine-rest
+```
+
+#### Verify the Deployment with Cockpit
+
 ### Implement an external task worker
 
 Add following dependency in your project:
