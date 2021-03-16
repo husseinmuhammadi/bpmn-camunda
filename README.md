@@ -10,6 +10,27 @@ To install the Camunda Platform locally on your machine run command below:
 docker pull camunda/camunda-bpm-platform:latest
 docker run -d --name camunda -p 8080:8080 camunda/camunda-bpm-platform:latest
 ```
+### Create a new BPMN Diagram
+
+### Implement an external task worker
+
+```
+<dependency>
+    <groupId>org.camunda.bpm</groupId>
+    <artifactId>camunda-external-task-client</artifactId>
+    <version>1.4.0</version>
+</dependency>
+```
+
+
+
+
+
+
+
+
+
+
 
 ### Reference Documentation
 
